@@ -5,6 +5,9 @@ var teste = document.querySelector('#teste');
 function enviar(){
     value = input.value.toLowerCase()
     switch (value){
+        case 'default':
+            square.style.backgroundImage = ''
+            break
         case 'brasil':
             square.style.backgroundImage = 'url(imgs/br.jpg)'
             break
